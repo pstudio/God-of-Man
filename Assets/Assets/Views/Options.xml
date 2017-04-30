@@ -1,0 +1,11 @@
+﻿<Options xmlns="MarkLight">
+  <Group Spacing="20px" Alignment="TopLeft" ContentAlignment="Left">
+    <Label Text="Volume: "/>
+    <Slider Value="{Volume}" Min="0" Max="100" Width="400px"/>
+    <CheckBox Text="Easy Mode" IsChecked="{EasyMode}"/>
+    <Label Text="Player: "/>
+    <InputField Text="{PlayerName}"/>
+    
+    <Button Text="Reset Defaults" Click="ResetDefaults" Width="250px"/>
+  </Group>
+</Options>

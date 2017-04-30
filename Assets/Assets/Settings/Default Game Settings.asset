@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a0fc850d6bebd4facdae38fbef7d69, type: 3}
+  m_Name: Default Game Settings
+  m_EditorClassIdentifier: 
+  World:
+    WorldWidth: 30
+    WorldHeight: 20
+  Land:
+    InitialLandPercentage: 0.5
+    DieNeighbors: 3
+    GrowNeighbors: 4
+    Generations: 3
+    ShorePercentage: 0.8
+    OceanRange: 1
+    RockPercentage: 0.05
+    GrassPercentage: 0.9
+    Ocean:
+      MinFood: 0
+      MaxFood: 0
+      MinAnimals: 0.1
+      MaxAnimals: 1
+    Water:
+      MinFood: 0
+      MaxFood: 0
+      MinAnimals: 0
+      MaxAnimals: 0.5
+    Dirt:
+      MinFood: 0
+      MaxFood: 0.2
+      MinAnimals: 0
+      MaxAnimals: 0.8
+    Grass:
+      MinFood: 0.2
+      MaxFood: 1
+      MinAnimals: 0.1
+      MaxAnimals: 1
+    Rock:
+      MinFood: 0
+      MaxFood: 0
+      MinAnimals: 0
+      MaxAnimals: 0.4
+    Sand:
+      MinFood: 0
+      MaxFood: 0.1
+      MinAnimals: 0
+      MaxAnimals: 0.5

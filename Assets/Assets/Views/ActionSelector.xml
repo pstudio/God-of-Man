@@ -1,0 +1,5 @@
+﻿<ActionSelector xmlns="MarkLight">
+  <ComboBox Items="{Actions}" ItemSelected="ActionSelected" IsDropUp="False" Alignment="TopLeft" Offset="325, 0" Click="Clicked">
+    <ComboBoxItem IsTemplate="True" Text="{#Item.Name} ({#Item.Cost})" IsVisible="{#Item.CanExecute}"/>
+  </ComboBox>
+</ActionSelector>

@@ -1,0 +1,5 @@
+﻿<HeatmapSelector xmlns="MarkLight">
+  <ComboBox Items="{Heatmaps}" ItemSelected="MapSelected" IsDropUp="False" Alignment="TopLeft">
+    <ComboBoxItem IsTemplate="True" Text="{#Item}"/>
+  </ComboBox>
+</HeatmapSelector>

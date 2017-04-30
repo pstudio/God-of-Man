@@ -1,0 +1,5 @@
+﻿<MainMenuScene xmlns="MarkLight">
+  <UserInterface>
+    <MainMenu/>
+  </UserInterface>
+</MainMenuScene>

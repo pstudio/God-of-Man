@@ -1,0 +1,8 @@
+﻿<GameUIScene xmlns="MarkLight">
+  <UserInterface>
+    <Group Orientation="Horizontal" Alignment="TopLeft" Offset="15, 15" Spacing="25">
+      <HeatmapSelector/>
+      <ActionSelector/>
+    </Group>
+  </UserInterface>
+</GameUIScene>
